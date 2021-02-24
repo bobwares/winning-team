@@ -7,10 +7,10 @@ import {withAuthenticator, AmplifySignOut} from "@aws-amplify/ui-react";
 Amplify.configure(config)
 
 function App() {
-  useEffect(() =>{
-      API.get('team-winning','/profile')
-
-  }, [])
+  // useEffect(() =>{
+  //     API.get('winning-team','/profile/')
+  //
+  // }, [])
   return (
     <div className="App">
       <header className="App-header">
